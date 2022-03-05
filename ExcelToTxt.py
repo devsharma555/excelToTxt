@@ -25,7 +25,7 @@ count=len(content)
 print(content)
 print(count)
 finalContent=''
-finalContent=', '.join(map(str,content))   #To handle int, float or any other datatype if not string
+finalContent=', '.join(map(str,content))   #map(str,content) used To handle int, float or any other datatype if not string
 
 file1=open(f'{textPath}\\{column}_{count}.txt','w')
 finalContent=finalContent[:-2]

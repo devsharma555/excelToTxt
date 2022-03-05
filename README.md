@@ -4,5 +4,6 @@ variables used
 excelPath->Provide excel files directory path
 textPath->Provide txt file path where results will be stored
 
--If you do not want to drop duplicates you can comment below line of code
+-If you do not want to drop duplicates you can comment below lines of code
 df=df.drop_duplicates()
+a=set(a)
